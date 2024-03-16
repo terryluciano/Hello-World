@@ -2,23 +2,33 @@
 
 <html lang="en">
 	<head>
+		<link rel="stylesheet" href="../styles/index.css" />
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Hello World</title>
 	</head>
 	<body>
 		<nav>
-			<p>Chronological</p>
-			<p>Alphabetical</p>
-			<p>By Category</p>
+			<a href="#intro">Intro</a>
+			<a href="#reasons">Reasons</a>
+			<a href="#easy">It's Easier</a>
+			<a href="#flex">Flexibility</a>
+			<a href="#docs">It's All About The DOCS</a>
+			<a href="#outro">Conclusion</a>
+			<a href="#bonus">Bonus Reason</a>
 		</nav>
 		<main>
-			<h1>Hello World</h1>
-			<h2>
+			<header id="intro">
+				<div>
+					<h1>Hello World</h1>
+					<p>React... more like re-trash</p>
+				</div>
+			</header>
+			<h2 id="reasons">
 				Welcome to my website! This page will go over 3 reasons why Vue
 				is better than React.
 			</h2>
-			<section class="reason">
+			<section id="easy" class="reason">
 				<h3>Reason 1: Vue is easier to learn</h3>
 				<p>
 					Vue is easier to learn than React. It has a smaller API and
@@ -26,7 +36,7 @@
 					with Vue and to build a project with it.
 				</p>
 			</section>
-			<section class="reason">
+			<section id="flex" class="reason">
 				<h3>Reason 2: Vue is more flexible</h3>
 				<p>
 					Vue is more flexible than React. It allows you to use
@@ -35,7 +45,7 @@
 					other libraries.
 				</p>
 			</section>
-			<section class="reason">
+			<section id="docs" class="reason">
 				<h3>Reason 3: Vue has better documentation</h3>
 				<p>
 					Vue has better documentation than React. It is more
@@ -43,7 +53,7 @@
 					to learn Vue and to find answers to your questions.
 				</p>
 			</section>
-			<section>
+			<section id="outro">
 				<h2>Conclusion</h2>
 				<p>
 					Vue is better than React because it is easier to learn, more
@@ -52,7 +62,7 @@
 					use, I recommend giving Vue a try.
 				</p>
 			</section>
-			<section class="reason">
+			<section id="bonus" class="reason">
 				<h3>Bonus Reason: Vue has better state management</h3>
 				<p>
 					Vue has better state management than React. It has a

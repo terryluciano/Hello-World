@@ -60,7 +60,7 @@ nav a:hover {
 }
 
 main {
-	overflow: clip;
+	overflow-x: clip;
 	margin-left: auto;
 	scroll-behavior: smooth;
 	display: flex;
@@ -69,7 +69,7 @@ main {
 	align-items: start;
 	width: calc(100% - 236px - 32px);
 	height: 100%;
-	gap: 1em;
+	gap: 2em;
 	padding: 2em 1em;
 }
 
@@ -105,4 +105,27 @@ h1 {
 p {
 	margin: 0;
 	font-size: 1em;
+}
+
+h3 {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 0.25em;
+	margin: 0;
+}
+
+h3 img {
+	width: auto;
+	height: 18px;
+}
+
+.reason {
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: start;
+	width: 100%;
+	height: auto;
+	gap: 1em;
 }

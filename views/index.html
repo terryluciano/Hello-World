@@ -3,6 +3,12 @@
 <html lang="en">
 	<head>
 		<link rel="stylesheet" href="../styles/index.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Hello World</title>
@@ -26,11 +32,13 @@
 			</header>
 			<h2 id="reasons">
 				Welcome to my website! This page will go over 3 reasons why Vue
-				is better than React.
+				is better than React. If you are new to front-end development or
+				are looking for a new library to use, I recommend giving Vue a
+				try.
 			</h2>
 			<section id="easy" class="reason">
 				<h3>
-					Reason 1: Vue is easier to learn
+					<span>Reason 1:</span> Vue is easier to learn
 					<img src="../assets/learn.svg" />
 				</h3>
 				<p>
@@ -48,50 +56,81 @@
 			</section>
 			<section id="flex" class="reason">
 				<h3>
-					Reason 2: Vue is more flexible
+					<span>Reason 2:</span> Vue is more flexible
 					<img src="../assets/flex.svg" />
 				</h3>
 				<p>
-					Vue is more flexible than React. It allows you to use
-					templates, JSX, or render functions. This makes it easier to
-					integrate Vue into an existing project or to use it with
-					other libraries.
+					Vue's flexibility extends beyond just its rendering options
+					like templates, JSX, and render functions. It also offers a
+					versatile Component API, allowing developers to create
+					reusable and modular components using various patterns such
+					as Options API and Composition API. The Options API follows
+					a more traditional approach, making it easier for beginners
+					to understand and use, while the newer Composition API
+					provides more flexibility and scalability for complex
+					applications by encouraging composition and reusability of
+					logic across components. This combination of rendering
+					options and component APIs makes Vue exceptionally
+					adaptable, catering to a wide range of development styles
+					and project requirements, further solidifying its reputation
+					as a flexible and developer-friendly framework.
 				</p>
 			</section>
 			<section id="docs" class="reason">
 				<h3>
-					Reason 3: Vue has better documentation
+					<span>Reason 3:</span> Vue has better documentation
 					<img src="../assets/doc.svg" />
 				</h3>
 				<p>
-					Vue has better documentation than React. It is more
-					comprehensive and easier to understand. This makes it easier
-					to learn Vue and to find answers to your questions.
+					Vue's documentation stands out as superior to React's due to
+					its comprehensive coverage and user-friendly format. The Vue
+					documentation not only provides in-depth explanations of
+					concepts but also offers clear examples and tutorials that
+					are easy to follow, making it simpler for developers to
+					grasp Vue's fundamentals and start building applications.
+					Additionally, Vue's documentation is structured in a way
+					that facilitates quick access to information and solutions
+					to common queries, contributing significantly to a smoother
+					learning experience and enabling developers to find answers
+					to their questions efficiently.
 				</p>
 			</section>
 			<section id="outro">
 				<h2>Conclusion</h2>
 				<p>
-					Vue is better than React because it is easier to learn, more
-					flexible, and has better documentation. If you are new to
-					front-end development or are looking for a new library to
-					use, I recommend giving Vue a try.
+					Vue surpasses React in several aspects, making it a
+					preferred choice for developers new to front-end development
+					or those seeking a versatile framework with robust support.
+					Its ease of learning, flexibility in rendering options and
+					component APIs, along with superior documentation,
+					collectively contribute to Vue's appeal. Whether you're a
+					beginner looking to dive into web development or an
+					experienced developer seeking a streamlined and efficient
+					solution, Vue's user-friendly nature and comprehensive
+					resources make it a compelling option worth exploring.
 				</p>
 			</section>
 			<section id="bonus" class="reason">
-				<h3>Bonus Reason: Vue has better state management</h3>
+				<h3>
+					<span>Bonus Reason:</span> Vue has better state management
+				</h3>
+				<div class="compare">
+					<img src="../assets/pinia.svg" />
+					<h2>VS</h2>
+					<img src="../assets/redux.svg" />
+				</div>
 				<p>
-					Vue has better state management than React. It has a
-					built-in reactivity system and a more intuitive way to
-					manage state. This makes it easier to build complex
-					applications with Vue.
-				</p>
-				<h4>Pinia vs Redux</h4>
-				<p>
-					Pinia is a state management library for Vue that is easier
-					to use than Redux. It is more intuitive and has better
-					performance. This makes it easier to manage state in a Vue
-					application.
+					Vue excels in state management compared to React, offering a
+					built-in reactivity system and an intuitive approach to
+					handling state, which simplifies the development of complex
+					applications. Additionally, Vue's ecosystem includes Pinia,
+					a state management library specifically designed for Vue,
+					which outshines Redux in terms of ease of use and
+					performance. Pinia's intuitive design and superior
+					performance make it a preferred choice for managing state in
+					Vue applications, further enhancing Vue's reputation as a
+					framework that prioritizes developer experience and
+					efficiency in state management.
 				</p>
 			</section>
 		</main>

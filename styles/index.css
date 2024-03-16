@@ -10,6 +10,7 @@ html {
 	color: var(--black);
 	line-height: normal;
 	letter-spacing: normal;
+	font-weight: 400;
 }
 
 body {
@@ -70,7 +71,7 @@ main {
 	width: calc(100% - 236px - 32px);
 	height: 100%;
 	gap: 2em;
-	padding: 2em 1em;
+	padding: 1em 1em;
 }
 
 header {
@@ -113,11 +114,16 @@ h3 {
 	align-items: center;
 	gap: 0.25em;
 	margin: 0;
+	font-weight: 500;
 }
 
 h3 img {
 	width: auto;
 	height: 18px;
+}
+
+h3 span {
+	text-decoration: underline var(--accent-brown);
 }
 
 .reason {
@@ -127,5 +133,24 @@ h3 img {
 	align-items: start;
 	width: 100%;
 	height: auto;
+	gap: 1.5em;
+}
+
+h2 {
+	font-weight: 500;
+}
+
+.compare {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: auto;
 	gap: 1em;
+}
+
+.compare img {
+	width: auto;
+	height: 100px;
 }
